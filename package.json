@@ -22,14 +22,14 @@
         "version:beta": "npm version prerelease --preid=beta",
         "version:release": "npm version ${VERSION:-patch}",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -b master -d build",
+        "deploy": "gh-pages -d build",
         "clean": "gh-pages-clean"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/NicolasLefeld/nicolaslefeld.github.io"
+        "url": ""
     },
-    "author": "WeLoveDevs.com",
+    "author": "",
     "license": "AGPLv3",
     "peerDependencies": {
         "@material-ui/core": "^4.11.0",
